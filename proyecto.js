@@ -43,7 +43,7 @@ function agregarCarrito(e){
     console.log(e.target);
     let hijo = e.target;
     let padre = hijo.parentNode.parentNode;
-    let titulo = padre.querySelector("h5").textContent;
+    let titulo = padre.querySelector("h4").textContent;
     let parrafo = padre.querySelector("p").textContent;
     let imagen = padre.querySelector("img").src;
 
