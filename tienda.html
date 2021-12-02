@@ -14,7 +14,7 @@
 
   </ul>
  
-    <script src="proyecto.js"></script>
+  
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -32,16 +32,40 @@
             </div>
           </nav>
     </header>
-    <div class="main">
-      <ul>
-        <li>
-          <img src="teacaddy.jpg" class="rounded float-start" alt="teaCaddy"width = "200px" height = "200px">
-        </li>
-        <li>
-          <img src="teapot.jpg" class="rounded float-end" alt="teaPot" width = "200px" height = "200px">
-        </li>
-      </ul>
+    <div class="card1" style="width: 18rem;">
+      <img src="css/teacaddy.jpg" class="caja" alt="cajaDeTe">
+      <div class="card-body">
+        <h5 class="card-title">Contenedor de hebras</h5>
+        <p class="card-text">Tiene una capacidad de 200g, es perfecto para guardar cualquier tipo de hebras y graantizar su sanidad.</p>
+        <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+      </div>
     </div>
+    <div class="card2" style="width: 18rem;">
+      <img src="css/bandeja.jpg" class="bandeja" alt="bandejaDeTe">
+      <div class="card-body">
+        <h5 class="card-title">Bandeja de pisos</h5>
+        <p class="card-text">Bandeja de pisos de tamaño estandar para pastelería y sandwicheria para servicio de té.</p>
+        <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+      </div>
+    </div>
+    <div class="card3" style="width: 18rem;">
+      <img src="css/teapot.jpg" class="teapot" alt="tetera">
+      <div class="card-body">
+        <h5 class="card-title">Tetera</h5>
+        <p class="card-text">Tetera con capacidad de 250cc para cualquier tipo de infusión con colador incorporado.</p>
+        <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+      </div>
+    </div>
+<div>
+  <h2>Ingrese los productos deseados</h2>
+  <input type="text" id="elemento">
+  <button onclick="listaCompras()">Sumar producto</button>
+  <button onclick="borrarElemento()">Eliminar producto</button>
+
+  <ul id="lista">
+</div>
+   
+<script src="proyecto.js"></script>
 <div>
   <h2>Ingrese los productos deseados</h2>
   <input type="text" id="elemento">
